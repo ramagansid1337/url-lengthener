@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const fs = require('fs');
 const crypto = require('crypto');
 const app = express();
-const port = 3000;
+const port = 2525;
 
 let urlData = {};
 try {
