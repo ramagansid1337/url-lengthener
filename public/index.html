@@ -43,7 +43,7 @@
 
                 if (response.ok) {
                     const { shortUrl, url } = await response.json();
-                    result.innerHTML = `http://localhost:3000/${shortUrl}`
+                    result.innerHTML = `http://localhost:2525/${shortUrl}`
                 } else {
                     throw new Error('Failed to lengthen URL');
                 }
